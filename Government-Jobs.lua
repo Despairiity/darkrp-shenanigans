@@ -23,3 +23,27 @@ Can Assist =  With other officers.]],
 })
 
 ----------------------------------------------------------------------------------------------------------------------
+
+TEAM_BMEDIC = DarkRP.createJob("Battle Medic", {
+    color = Color(17, 158, 53, 255),
+    model = {"models/player/hostage/hostage_04.mdl"},
+    description = [[You're a Battle Medic, keep your Raid buddies alive.
+
+Can Base = With Party.
+Can Raid = With Party.
+Can Mug = With Party.
+Can Counter = With Party.
+Can Assist =  With Party.]],
+    weapons = {"med_kit"},
+    command = "bmedic",
+    max = 3,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = true,
+    category = "Criminal"
+})
+
+----------------------------------------------------------------------------------------------------------------------
+
