@@ -1,6 +1,6 @@
 TEAM_KIDNAPPER = DarkRP.createJob("Kidnapper", {
     color = Color(41, 184, 28, 255),
-    model = {"models/player/gman_high.mdl"},
+    model = {"models/player/odessa.mdl"},
     description = [[You're a Kidnapper, steal people's wallets and the limp corpses.
 
 Can Base = Yes
@@ -18,3 +18,53 @@ Can Assist = ( ? )]],
     candemote = true,
     category = "Criminals"
 })
+
+----------------------------------------------------------------------------------------------------------------------
+
+TEAM_RESISTANCE = DarkRP.createJob("Resistance", {
+    color = Color(191, 12, 12, 255),
+    model = {
+        "models/player/Group03/male_06.mdl",
+        "models/player/Group03/female_01.mdl"
+    },
+    description = [[You're part of the Resistance, follow your leader and take back the city by raiding the PD.
+        
+        Can Base = Only with Leader
+        Can Raid = Only with Leader ( PD )
+        Can Mug = No
+        Can Counter = No
+        Can Assist = Only with Leader ]],
+    weapons = {},
+    command = "resistance",
+    max = 4,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = true,
+    category = "Criminals"
+})
+
+TEAM_RESISTANCE = DarkRP.createJob("Resistance Leader", {
+    color = Color(232, 31, 31, 255),
+    model = {"models/player/eli.mdl"},
+    description = [[You're the Resistance Leader, guide your followers to take back the city by raiding the PD.
+        
+        Can Base = Yes
+        Can Raid = PD Only.
+        Can Mug = No
+        Can Counter = No
+        Can Assist = If someone else is raiding PD. ]],
+    weapons = {},
+    command = "resistleader",
+    max = 1,
+    salary = 750,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = true,
+    category = "Criminals"
+})
+
+----------------------------------------------------------------------------------------------------------------------
+
