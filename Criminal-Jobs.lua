@@ -68,3 +68,26 @@ TEAM_RESISTANCE = DarkRP.createJob("Resistance Leader", {
 
 ----------------------------------------------------------------------------------------------------------------------
 
+TEAM_THIEF = DarkRP.createJob("Thief", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/player/arctic.mdl"},
+    description = [[You're a Thief, raid or mug people and get some precious money. Then use that money to make more money, capitalism.
+
+Can Base = Yes
+Can Raid = Yes
+Can Mug = Yes
+Can Counter = Yes
+Can Assist =  Yes]],
+    weapons = {"lockpick", "m9k_hk45"},
+    command = "thief",
+    max = 7,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = true,
+    category = "Criminal"
+})
+
+----------------------------------------------------------------------------------------------------------------------
+
