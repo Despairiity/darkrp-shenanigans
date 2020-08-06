@@ -20,3 +20,27 @@ Can Assist = No]],
 })
 
 ----------------------------------------------------------------------------------------------------------------------
+
+TEAM_SKELETON = DarkRP.createJob("Skeleton.", {
+    color = Color(255, 255, 255, 255),
+    model = {"models/player/skeleton.mdl"},
+    description = [[It's a skeleton.
+
+Can Base = No
+Can Raid = No
+Can Mug = No
+Can Counter = No
+Can Assist = No]],
+    weapons = {},
+    command = "hobo",
+    max = 0,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = true,
+    category = "Citizens"
+})
+
+----------------------------------------------------------------------------------------------------------------------
+
