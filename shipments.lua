@@ -1,8 +1,8 @@
 // PISTOLS //
-DarkRP.createShipment("Python", "models/weapons/w_colt_python.mdl", "m9k_coltpython", 12000, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("Colt 1911", "models/weapons/s_dmgf_co1911.mdl", "m9k_colt1911", 12000, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("HK 45C", "models/weapons/w_hk45c.mdl", "m9k_hk45", 15000, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("Luger", "models/weapons/w_luger_p08.mdl", "m9k_luger", 12000, 10, false, 0, false, {TEAM_GUN})
+DarkRP.createShipment("Python", "models/weapons/w_colt_python.mdl", "m9k_coltpython", 12000, 10, true, 1500, false, {TEAM_GUN})
+DarkRP.createShipment("Colt 1911", "models/weapons/s_dmgf_co1911.mdl", "m9k_colt1911", 12000, 10, true, 1500, false, {TEAM_GUN})
+DarkRP.createShipment("HK 45C", "models/weapons/w_hk45c.mdl", "m9k_hk45", 15000, 10, true, 1800, false, {TEAM_GUN})
+DarkRP.createShipment("Luger", "models/weapons/w_luger_p08.mdl", "m9k_luger", 12000, 10, true, 1500, false, {TEAM_GUN})
 DarkRP.createShipment("Raging Bull", "models/weapons/w_hk45c.mdl", "m9k_ragingbull", 30000, 10, false, 0, false, {TEAM_GUN})
 DarkRP.createShipment("S&W 500", "models/weapons/w_sw_model_500.mdl", "m9k_model500", 27500, 10, false, 0, false, {TEAM_GUN})
 DarkRP.createShipment("M29 Satan", "models/weapons/w_m29_satan.mdl", "m9k_m29satan", 30000, 10, false, 0, false, {TEAM_LIGHT})
