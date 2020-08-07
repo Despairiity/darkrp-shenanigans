@@ -1,14 +1,14 @@
 // PISTOLS //
 DarkRP.createShipment("Python", "models/weapons/w_colt_python.mdl", "m9k_coltpython", 12000, 10, true, 1500, false, {TEAM_GUN})
 DarkRP.createShipment("Colt 1911", "models/weapons/s_dmgf_co1911.mdl", "m9k_colt1911", 12000, 10, true, 1500, false, {TEAM_GUN})
-DarkRP.createShipment("HK 45C", "models/weapons/w_hk45c.mdl", "m9k_hk45", 15000, 10, true, 1800, false, {TEAM_GUN})
+DarkRP.createShipment("HK 45C", "models/weapons/w_hk45c.mdl", "m9k_hk45", 15000, 10, true, 1700, false, {TEAM_GUN})
 DarkRP.createShipment("Luger", "models/weapons/w_luger_p08.mdl", "m9k_luger", 12000, 10, true, 1500, false, {TEAM_GUN})
-DarkRP.createShipment("Raging Bull", "models/weapons/w_hk45c.mdl", "m9k_ragingbull", 30000, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("S&W 500", "models/weapons/w_sw_model_500.mdl", "m9k_model500", 27500, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("M29 Satan", "models/weapons/w_m29_satan.mdl", "m9k_m29satan", 30000, 10, false, 0, false, {TEAM_LIGHT})
-DarkRP.createShipment("Baretta", "models/weapons/w_beretta_m92.mdl", "m9k_m92baretta", 14000, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("S&W Model 3 Russian", "models/weapons/w_model_3_rus.mdl", "m9k_model3russian", 30000, 10, false, 0, false, {TEAM_GUN})
-DarkRP.createShipment("S&W 627", "models/weapons/w_sw_model_627.mdl", "m9k_model627", 30000, 10, false, 0, false, {TEAM_GUN})
+DarkRP.createShipment("Raging Bull", "models/weapons/w_hk45c.mdl", "m9k_ragingbull", 30000, 10, true, 2000, false, {TEAM_GUN})
+DarkRP.createShipment("S&W 500", "models/weapons/w_sw_model_500.mdl", "m9k_model500", 27500, 10, true, 1800, false, {TEAM_GUN})
+DarkRP.createShipment("M29 Satan", "models/weapons/w_m29_satan.mdl", "m9k_m29satan", 30000, 10, true, 2000, false, {TEAM_GUN})
+DarkRP.createShipment("Baretta", "models/weapons/w_beretta_m92.mdl", "m9k_m92baretta", 14000, 10, true, 1650, false, {TEAM_GUN})
+DarkRP.createShipment("S&W Model 3 Russian", "models/weapons/w_model_3_rus.mdl", "m9k_model3russian", 30000, 10, true, 2000, false, {TEAM_GUN})
+DarkRP.createShipment("S&W 627", "models/weapons/w_sw_model_627.mdl", "m9k_model627", 30000, 10, true, 2000, false, {TEAM_GUN})
 
 // ASSAULT GUNS //
 DarkRP.createShipment("Acr", "models/weapons/w_masada_acr.mdl", "m9k_acr", 40000, 10, false, 0, false, {TEAM_GUN})
@@ -51,4 +51,4 @@ DarkRP.createShipment("Scout", "models/weapons/w_snip_scout.mdl", "weapon_mad_sc
 // MACHINE GUNS //
 DarkRP.createShipment("FG42", "models/weapons/w_fg42.mdl", "m9k_fg42", 5000, 10, false, 123, false, {TEAM_BGUN})
 DarkRP.createShipment("M60", "models/weapons/w_m60_machine_gun.mdl", "m9k_m60", 20000, 10, false, 123, false, {TEAM_BGUN})
-DarkRP.createShipment("Mini Gun", "models/weapons/w_m134_minigun.mdl", "m9k_minigun", 1500000, 10, false, 0, false, {TEAM_BGUN})
+DarkRP.createShipment("Mini Gun", "models/weapons/w_m134_minigun.mdl", "m9k_minigun", 1500000, 10, true, 75000, false, {TEAM_BGUN})
